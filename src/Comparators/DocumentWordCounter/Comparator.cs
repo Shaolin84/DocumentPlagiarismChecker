@@ -35,6 +35,7 @@ namespace DocumentPlagiarismChecker.Comparators.DocumentWordCounter
         /// </summary>
         /// <returns>The matching's results.</returns>
         public override ComparatorMatchingScore Run(){
+            //Cuenta las apariciones de palabras para cada documento (izquierda y derecha).
             //Counting the words appearences for each document (left and right).
             Dictionary<string, int[]> counter = new Dictionary<string, int[]>();
             foreach(string word in this.Left.WordAppearances.Select(x => x.Key)){
