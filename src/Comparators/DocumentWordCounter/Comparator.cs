@@ -28,7 +28,9 @@ namespace DocumentPlagiarismChecker.Comparators.DocumentWordCounter
         /// <param name="settings">The settings instance that will use the comparator.</param>
         /// <returns></returns>
         public Comparator(string fileLeftPath, string fileRightPath, Settings settings): base(fileLeftPath, fileRightPath, settings){
-        }  
+        
+    
+        }
         
         /// <summary>
         /// Counts how many words and how many times appears within each document, and checks the matching percentage.
