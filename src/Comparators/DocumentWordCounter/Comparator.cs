@@ -30,6 +30,7 @@ namespace DocumentPlagiarismChecker.Comparators.DocumentWordCounter
         public Comparator(string fileLeftPath, string fileRightPath, Settings settings): base(fileLeftPath, fileRightPath, settings){
         
         /*Introducir comentario en constructor*/
+        /*Introducir comentario en constructor comentario2*/
     
         }
         
