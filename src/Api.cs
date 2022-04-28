@@ -18,6 +18,7 @@ namespace DocumentPlagiarismChecker
     /// This object provides access to the functionalities for the Document Plagiarism Checker library. 
     /// </summary>
     public class Api: IDisposable{
+        ///comentario 2 de pau en api cs
         private long _total;
         private long _computed;          
         private bool disposed = false;
