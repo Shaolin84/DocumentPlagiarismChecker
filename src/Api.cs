@@ -18,9 +18,7 @@ namespace DocumentPlagiarismChecker
     /// This object provides access to the functionalities for the Document Plagiarism Checker library. 
     /// </summary>
     public class Api: IDisposable{
-        ///comentario 2 de pau en api cs
-        ///comentario de jose lul ekisde
-        ///Comentario de Marcos
+       
         private long _total;
         private long _computed;          
         private bool disposed = false;
@@ -100,6 +98,10 @@ namespace DocumentPlagiarismChecker
         /// <param name="results">A set of file matching scores</param>
         public void WriteOutput(){
             //TODO: must be selected by settings
+             ///comentario 2 de pau en api cs
+        ///comentario de jose lul ekisde
+        ///Comentario de Marcos
+        ///comentario de David
             TerminalOutput t = new TerminalOutput(this.Settings);
             t.Write(this.MatchingResults);
         }
