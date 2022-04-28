@@ -17,6 +17,7 @@ namespace DocumentPlagiarismChecker.Outputs
     /// This output base object sends the results to the terminal.
     /// </summary>
     internal class TerminalOutput: Core.BaseOutput{
+    /// Comentario de jose chistoso wow
     /// Bua comentario de pau increible
         public TerminalOutput(): base(){
         }
