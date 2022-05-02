@@ -43,6 +43,7 @@ namespace DocumentPlagiarismChecker
             if(string.IsNullOrEmpty(s.Folder)) throw new Exceptions.FolderNotSpecifiedException();
             if(string.IsNullOrEmpty(s.Extension)) throw new Exceptions.FileExtensionNotSpecifiedException();            
 
+            //DAvid Guaita
             //Multi-tasking in order to display progress
             using(Api api = new Api(s)){
                 Task compare = Task.Run(() => 
