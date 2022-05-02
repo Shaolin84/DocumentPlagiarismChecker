@@ -14,6 +14,7 @@ using DocumentPlagiarismChecker.Outputs;
 
 namespace DocumentPlagiarismChecker
 {
+    /// cosa de jose ow
     /// <summary>
     /// This object provides access to the functionalities for the Document Plagiarism Checker library. 
     /// </summary>
